@@ -10,6 +10,9 @@ let package = Package(
             name: "tun2socks",
             targets: ["tun2socks"]
         ),
+        .library(
+            name: "lwip",
+            targets: ["lwip"]),
     ],
     dependencies: [],
     targets: [
